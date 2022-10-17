@@ -1,4 +1,9 @@
 # CMAT
+## Architecture
+
+![](arch.svg)
+
+
 
 ## Installation
 
