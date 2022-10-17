@@ -1,4 +1,5 @@
-# CMAT
+# Music Generation for Improving Athlete Performance (MGIAP)
+
 ## Architecture
 
 ![](arch.svg)
