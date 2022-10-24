@@ -52,6 +52,14 @@ div.element {
 		  </div>
 	  </div>
 
+	  <div class="row element">
+
+		  <div class="col">
+
+			  <button type="button" class="btn btn-primary" id="season1_btn">toggle</button>
+
+		  </div>
+	  </div>
 
 	  <div class="row element">
 		  <div class="col">
@@ -83,15 +91,6 @@ div.element {
 
 
 
-
-	  <div class="row element">
-
-		  <div class="col">
-
-			  <button type="button" class="btn btn-primary" id="season1_btn">season1</button>
-
-		  </div>
-	  </div>
 
 
 
@@ -137,16 +136,22 @@ div.element {
 	season1_btn.addEventListener("click", function(){
 		
 		var nav_element = document.getElementById("nav_bar");
-		nav_element.classList.remove('bg-primary');
-		nav_element.classList.add('bg-danger');
+		nav_element.classList.toggle('bg-primary');
+		nav_element.classList.toggle('bg-danger');
+
+		var btn_elements = document.getElementsByClassName("element");
+		btn_elements.forEach(function(element, index, array){ 
+			alert("hi");
+
+
+		})
+
+
 
 
 	}
 
 );
-
-
-
 
 </script>
 
