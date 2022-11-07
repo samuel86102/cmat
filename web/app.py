@@ -1,4 +1,4 @@
-from flask import Flask, Response
+from flask import Flask, Response, request
 from flask import render_template, redirect
 from pythonosc.udp_client import SimpleUDPClient
 
@@ -21,11 +21,23 @@ def send_osc_msg_a():
 app = Flask(__name__)
 
 
+@app.route('/player')
+def player():
 
+    #page = request.args.get('page', default = 1, type = int)
+    set_name = request.args.get('set', default = '*', type = str)
+    print(set_name)
+
+    return render_template('player.html', set_name = set_name) 
+
+
+
+
+'''
 @app.route('/player.html')
 def player():
     return render_template('player.html') 
-
+'''
 @app.route('/send_osc')
 def send_osc():
     send_osc_msg()

@@ -8,18 +8,24 @@
   <link rel="style" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <style>
-
 img{
+
 
   object-fit: cover;
   width: 100%;
+}
+a { color: inherit; }
+
+div.element {
+	padding:1.5rem;
+
 }
 
 
 </style>
 <body>
   
-  <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
     <ul class="navbar-nav">
 
 
@@ -31,22 +37,77 @@ img{
     </ul>
   </nav>
 
-  <div class="container text-center">
-	  <div class="jumbotro">
 
-    <img src="{{ url_for('static', filename='img/player.png') }}">
+
+
+ <div class="container text-center">
+
+
+	 <h1>{{ set_name }}</h1>
+
+
+	  <div class="row element">
+		  <div class="col">
+				<label for="customRange3" class="form-label">parameter1</label>
+				<input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+		  </div>
+	  </div>
+
+	  <div class="row element">
+		  <div class="col">
+				<label for="customRange3" class="form-label">parameter2</label>
+				<input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+		  </div>
+	  </div>
+
+	  <div class="row element">
+		  <div class="col">
+				<label for="customRange3" class="form-label">parameter3</label>
+				<input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+		  </div>
+	  </div>
+
+
+	  <div class="row element">
+		  <div class="col">
+				<label for="customRange3" class="form-label">parameter4</label>
+				<input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+		  </div>
+	  </div>
+
+	  <div class="row element">
+		  <div class="col">
+				<label for="customRange3" class="form-label">volume</label>
+				<input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+		  </div>
+	  </div>
+
+
 	  <hr class="my-4">
-		<button type="button" class="btn btn-warning" id = "play_button">Play Music</button>
+
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+</div>
+
+	  <hr class="my-4">
+
+		<button type="button" class="btn btn-danger" id = "play_button">Play</button>
 
 	  </div>
+
+
+
+
+
+
+<!--
+    <img src="{{ url_for('static', filename='img/player.png') }}">
+-->
+
+
+
   </div>
 
-
-    <audio id="audio" src="{{ url_for('static', filename='audio/session.wav') }}"></audio>
-    <audio id="audio_1" src="{{ url_for('static', filename='audio/beat_120.wav') }}"></audio>
-    <audio id="audio_2" src="{{ url_for('static', filename='audio/beat_130.wav') }}"></audio>
-    <audio id="audio_3" src="{{ url_for('static', filename='audio/beat_140.wav') }}"></audio>
-    <audio id="audio_4" src="{{ url_for('static', filename='audio/beat_150.wav') }}"></audio>
 
 </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -56,6 +117,7 @@ img{
 
 
 <script>
+	/*
 	var playButtonElement = document.getElementById("play_button");
 	playButtonElement.addEventListener("click", function() {
         var audio = document.getElementById("audio");
@@ -65,7 +127,7 @@ img{
 
       function play() {
       }
-
+*/
 
 </script>
 
