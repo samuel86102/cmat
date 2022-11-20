@@ -5,6 +5,7 @@
 ![](arch.svg)
 
 ## App  architecture
+
 ![](arch-new.svg)
 
 
