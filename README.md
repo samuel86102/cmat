@@ -1,8 +1,11 @@
-# Music Generation for Improving Athlete Performance (MGIAP)
+# cmat project
 
-## Architecture
+## System architecture
 
 ![](arch.svg)
+
+## App  architecture
+![](arch-new.svg)
 
 
 
@@ -16,13 +19,13 @@ or
 pip install python-osc && pip install flask
 ```
 
-## How to run web server
+## Start web server
 ```sh
 cd ./web
 flask run --host=0.0.0.0 --debugger
 ```
 
-## How to run OSC server
+## Start OSC server (optional)
 ```sh
 cd ./osc
 python server.py
