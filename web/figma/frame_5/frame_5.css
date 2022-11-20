@@ -1,0 +1,322 @@
+/*
+	@name frame_5
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 399px; width: 399px; height: 439px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__frame_5 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 439px;
+	background:#;
+}
+
+#frame_5 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 439px;
+}
+
+#rectangle_14 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 439px;
+	-ms-border-radius: 48px;
+	-o-border-radius: 48px;
+	-moz-border-radius: 48px;
+	-webkit-border-radius: 48px;
+	border-radius: 48px;
+	background:rgba(255,255,255,1);
+}
+
+#rectangle_15 {
+	top: 44px;
+	left: 40px;
+	width: 74.68px;
+	height: 74.68px;
+}
+
+#rectangle_9 {
+	top: 1.33px;
+	left: 1.26px;
+	width: 72px;
+	height: 72px;
+}
+
+
+#_30_min_______bpm_120_166_______ {
+	top: 55px;
+	left: 146px;
+	width: 246px;
+	height: 57px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 12px;
+	text-align: left;
+	color:#000000;
+}
+
+#___img__group_3 {
+	top: 363px;
+	left: 28px;
+	width: 342px;
+	height: 45px;
+}
+#frame_3 {
+	top: 0px;
+	left: 0px;
+	width: 342px;
+	height: 45px;
+}
+#rewind {
+	top: 11px;
+	left: 65px;
+	width: 41px;
+	height: 27px;
+}
+
+#vector {
+	top: 5.63px;
+	left: 3.42px;
+	width: 15.38px;
+	height: 15.75px;
+}
+
+
+#vector_ek1 {
+	top: 5.63px;
+	left: 22.21px;
+	width: 15.38px;
+	height: 15.75px;
+}
+
+#play_circle {
+	top: 0px;
+	left: 147px;
+	width: 48px;
+	height: 45px;
+}
+
+#vector_ek2 {
+	top: 3.75px;
+	left: 4px;
+	width: 40px;
+	height: 37.5px;
+}
+
+
+#vector_ek3 {
+	top: 15px;
+	left: 20px;
+	width: 12px;
+	height: 15px;
+}
+
+#fast_forward {
+	top: 11px;
+	left: 236px;
+	width: 41px;
+	height: 27px;
+}
+
+#vector_ek4 {
+	top: 5.63px;
+	left: 22.21px;
+	width: 15.38px;
+	height: 15.75px;
+}
+
+
+#vector_ek5 {
+	top: 5.63px;
+	left: 3.42px;
+	width: 15.38px;
+	height: 15.75px;
+}
+
+#volume_x {
+	top: 13px;
+	left: 0px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek6 {
+	top: 5px;
+	left: 2px;
+	width: 9px;
+	height: 14px;
+}
+
+
+#vector_ek7 {
+	top: 9px;
+	left: 17px;
+	width: 6px;
+	height: 6px;
+}
+
+
+#vector_ek8 {
+	top: 9px;
+	left: 17px;
+	width: 6px;
+	height: 6px;
+}
+
+#shuffle {
+	top: 11px;
+	left: 318px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek9 {
+	top: 3px;
+	left: 16px;
+	width: 5px;
+	height: 5px;
+}
+
+
+#vector_ek10 {
+	top: 3px;
+	left: 4px;
+	width: 17px;
+	height: 17px;
+}
+
+
+#vector_ek11 {
+	top: 16px;
+	left: 16px;
+	width: 5px;
+	height: 5px;
+}
+
+
+#vector_ek12 {
+	top: 15px;
+	left: 15px;
+	width: 6px;
+	height: 6px;
+}
+
+
+#vector_ek13 {
+	top: 4px;
+	left: 4px;
+	width: 5px;
+	height: 5px;
+}
+
+#___img__group_4 {
+	top: 325px;
+	left: 35px;
+	width: 323px;
+	height: 10px;
+}
+
+#vector_7 {
+	top: 5px;
+	left: 2px;
+	width: 321.5px;
+	height: 0px;
+}
+
+
+#vector_8 {
+	top: 5px;
+	left: 0px;
+	width: 166.5px;
+	height: 0px;
+}
+
+
+#ellipse_1 {
+	top: 0px;
+	left: 161px;
+	width: 10px;
+	height: 10px;
+	-ms-border-radius: 5px / 5px;
+	-o-border-radius: 5px / 5px;
+	-moz-border-radius: 5px / 5px;
+	-webkit-border-radius: 5px / 5px;
+	border-radius: 5px / 5px;
+	background:rgba(0,0,0,1);
+}
+
+#save {
+	top: 61px;
+	left: 336px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek14 {
+	top: 3px;
+	left: 3px;
+	width: 18px;
+	height: 18px;
+}
+
+
+#vector_ek15 {
+	top: 13px;
+	left: 7px;
+	width: 10px;
+	height: 8px;
+}
+
+
+#vector_ek16 {
+	top: 3px;
+	left: 7px;
+	width: 8px;
+	height: 5px;
+}
+
+#share {
+	top: 61px;
+	left: 293px;
+	width: 24px;
+	height: 24px;
+}
+
+#vector_ek17 {
+	top: 12px;
+	left: 4px;
+	width: 16px;
+	height: 10px;
+}
+
+
+#vector_ek18 {
+	top: 2px;
+	left: 8px;
+	width: 8px;
+	height: 4px;
+}
+
+
+#vector_ek19 {
+	top: 2px;
+	left: 12px;
+	width: 0px;
+	height: 13px;
+}
+
+
+
+/* Add your custom CSS here */

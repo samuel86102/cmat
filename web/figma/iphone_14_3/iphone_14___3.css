@@ -1,0 +1,163 @@
+/*
+	@name iphone_14___3
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 390px; width: 390px; height: 844px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__iphone_14___3 {
+	top: 0px;
+	left: 0px;
+	width: 390px;
+	height: 844px;
+	background:rgba(255,255,255,1);
+}
+
+
+#rectangle_13 {
+	opacity:0.5;
+	top: 0px;
+	left: 0px;
+	width: 392px;
+	height: 87px;
+	border: 1px solid #b3b2b2;
+	background:rgba(255,255,255,0.5);
+}
+
+
+#rectangle_14 {
+	top: 40px;
+	left: 28px;
+	width: 334px;
+	height: 38px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	background:rgba(230.82,227.93,227.93,1);
+}
+
+
+#vector {
+	top: 3px;
+	left: 3px;
+	width: 16px;
+	height: 16px;
+}
+
+
+#vector_ek1 {
+	top: 16.65px;
+	left: 16.65px;
+	width: 4.35px;
+	height: 4.35px;
+}
+
+
+#_____________ {
+	top: 52px;
+	left: 71px;
+	width: 357px;
+	height: 33px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 12px;
+	text-align: left;
+	color:#635F5F;
+}
+
+
+#rectangle_15 {
+	top: 127px;
+	left: 25px;
+	width: 337px;
+	height: 148px;
+}
+
+
+#rectangle_16 {
+	top: 292px;
+	left: 25px;
+	width: 337px;
+	height: 148px;
+}
+
+
+#rectangle_17 {
+	top: 457px;
+	left: 25px;
+	width: 337px;
+	height: 149px;
+}
+
+
+#rectangle_18 {
+	top: 623px;
+	left: 25px;
+	width: 337px;
+	height: 166px;
+}
+
+
+#_______ {
+	top: 254px;
+	left: 41px;
+	width: 354px;
+	height: 21px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 12px;
+	text-align: left;
+	color:#FFFCFC;
+}
+
+
+#________ek1 {
+	top: 416px;
+	left: 38px;
+	width: 354px;
+	height: 21px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 12px;
+	text-align: left;
+	color:#FFFCFC;
+}
+
+
+#__________bpm {
+	top: 581px;
+	left: 38px;
+	width: 354px;
+	height: 21px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 12px;
+	text-align: left;
+	color:#FFFCFC;
+}
+
+
+#__________ {
+	top: 762px;
+	left: 38px;
+	width: 354px;
+	height: 21px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 12px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+
+/* Add your custom CSS here */

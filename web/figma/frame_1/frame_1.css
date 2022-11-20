@@ -1,0 +1,113 @@
+/*
+	@name frame_1
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 310px; width: 310px; height: 759px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__frame_1 {
+	top: 0px;
+	left: 0px;
+	width: 310px;
+	height: 759px;
+	background:#;
+}
+
+
+#rectangle_13 {
+	top: -15px;
+	left: 0px;
+	width: 214px;
+	height: 761px;
+	border: 1px solid #bdb1b1;
+	background:rgba(255,255,255,1);
+}
+
+
+#_______training {
+	top: 69px;
+	left: 19px;
+	width: 212px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 14px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_______my_music {
+	top: 108px;
+	left: 19px;
+	width: 187px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 14px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_______about_us {
+	top: 186px;
+	left: 19px;
+	width: 187px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 14px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#______what_s_new {
+	top: 36px;
+	left: 19px;
+	width: 212px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 14px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#_______back {
+	top: 3px;
+	left: 106px;
+	width: 212px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 14px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#______contact_us {
+	top: 147px;
+	left: 19px;
+	width: 187px;
+	height: 43px;
+	overflow: hidden;
+	font-family: Permanent Marker;
+	font-size: 14px;
+	text-align: left;
+	color:#000000;
+}
+
+
+
+/* Add your custom CSS here */
