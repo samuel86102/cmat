@@ -57,8 +57,33 @@ def player():
     return render_template('player.html', set_name = set_name) 
 
 
+@app.route('/')
+def mainpage():
+    return render_template('/figma/iphone_14_1/iphone_14___1.html')
 
+@app.route('/search')
+def search():
+    return render_template('/figma/iphone_14_3/iphone_14___3.html')
 
+@app.route('/mymusic')
+def mymusic():
+    return render_template('/figma/iphone_14_2/iphone_14___2.html')
+
+@app.route('/30min')
+def mainpage30():
+    return render_template('/figma/frame_5/frame_5.html')
+
+@app.route('/40min')
+def mainpage40():
+    return render_template('/figma/frame_7/frame_7.html')
+
+@app.route('/60min')
+def mainpage60():
+    return render_template('/figma/frame_8/frame_8.html')
+
+@app.route('/contactus')
+def contactus():
+    return render_template('/figma/frame_1/frame_1.html')
 '''
 @app.route('/player.html')
 def player():
@@ -86,11 +111,14 @@ def send_osc_a():
     send_osc_msg_a()
     return redirect('/')
 
-
+'''
 @app.route('/')
 def index():
     return render_template('index.html') 
-
+'''
+@app.route('/')
+def index():
+    return render_template('/figma/iphone_14_1/iphone_14___1.html') 
 @app.route("/wav")
 def streamwav():
     def generate():

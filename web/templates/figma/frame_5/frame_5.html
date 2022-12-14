@@ -1,0 +1,142 @@
+<!-- 
+/*
+ *	This content is generated from the PSD File Info.
+ *	(Alt+Shift+Ctrl+I).
+ *
+ *	@desc 		
+ *	@file 		frame_5
+ *	@date 		Saturday 19th of November 2022 11:55:27 AM
+ *	@title 		Page 1
+ *	@author 	
+ *	@keywords 	
+ *	@generator 	Export Kit v1.3.figma
+ *
+*/
+ -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>30min</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="{{ url_for('static', filename='css/frame_5.css') }}" />
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+		<style> 
+			@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap');
+			</style>
+		<!-- Add your custom HEAD content here -->
+
+	</head>
+
+<style>
+
+
+#control_area{
+	background: linear-gradient(to top left, white, rgba(255, 153, 150, 0), #5ea2ef), linear-gradient(to top right, white, rgba(255, 153, 150, 0), #d12d9c) rgba(255, 153, 150, 0);
+	border-radius: 15px;
+}
+
+</style>
+
+	<body>
+		<div id="content-container" >
+			<div id="_bg__frame_7"  ></div>
+			<div id="rectangle_14"  ></div>
+			<div id="__img___group_3">
+			<!-- it is play ,playback, playforward ,and so on-->
+				<img src="{{ url_for('static', filename='img/skins05/volume-mute-outline.svg') }} " id="silent" >
+				<img src="{{ url_for('static', filename='img/skins05/play-back-outline.svg') }} " id="playb" >
+				<img src="{{ url_for('static', filename='img/skins05/play-outline.svg') }} " id="play" >
+				<img src="{{ url_for('static', filename='img/skins05/play-forward-outline.svg') }} " id="playf" >
+				<img src="{{ url_for('static', filename='img/skins05/repeat-outline.svg') }} " id="repeat" >
+			</div>
+
+			<img src="{{ url_for('static', filename='img/skins05/__img___group_4.png') }}" id="__img___group_4" />
+<!--
+			<div id="rectangle_24"  ></div>
+			<div id="rectangle_25"  ></div>
+			<div id="rectangle_26"  ></div>
+			<div id="rectangle_27"  ></div>
+			<div id="rectangle_28"  ></div>
+
+			<div id="rectangle_29"  ></div>
+			<div id="rectangle_30"  ></div>
+			<div id="rectangle_31"  ></div>
+
+-->
+
+
+			<div id="__xypad" style="float:left;width:200px;padding:30px">
+					<div id="xypad">
+						<fieldset class="pad" data-width="180" data-height="180">
+							<legend>XY Pad</legend>
+							x : <input name="x" value=27>
+							y : <input name="y" value=80>
+						</fieldset>
+					</div>
+			</div>
+
+			<div id="rectangle_13"  >
+				<img src="{{ url_for('static', filename='img/level/1.png') }}" id="rectangle_9" />
+			</div>
+
+
+
+			<div id="_40_min______bpm_143_155_______" >
+				<div id="Twfont">
+					30分鐘無氧金字塔
+				</div>
+				
+				<div id="Enfont">
+				<br/>bpm:120~166<br/>
+				</div>
+			</div>
+			
+			<div id="share"  >
+				<img src="{{ url_for('static', filename='img/skins05/share-outline.svg') }}" id="vector" />
+<!--				<img src="{{ url_for('static', filename='img/skins05/vector.png') }}" id="vector" />
+				<img src="{{ url_for('static', filename='img/skins05/vector_ek1.png') }}" id="vector_ek1" />
+				<img src="{{ url_for('static', filename='img/skins05/vector_ek2.png') }}" id="vector_ek2" />
+-->
+			</div>
+
+			<div id="save"  >
+				<img src="{{ url_for('static', filename='img/skins05/save-outline.svg') }}" id="vector_ek3" />
+<!--			<img src="{{ url_for('static', filename='img/skins05/vector_ek3.png') }}" id="vector_ek3" />
+				<img src="{{ url_for('static', filename='img/skins05/vector_ek4.png') }}" id="vector_ek4" />
+				<img src="{{ url_for('static', filename='img/skins05/vector_ek5.png') }}" id="vector_ek5" />
+-->	
+			</div>
+
+		</div>
+		<script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+	</body>
+</html>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="{{ url_for('static', filename='js/jquery.kontrol.js') }}"></script>
+<script>
+  var $pad = $(".pad").xy({
+
+                      displayPrevious:false
+                      , min : -100
+                      , max : 100
+                      , fgColor:"#222222"
+                      , bgColor:"#000000"
+                      , change : function (value){
+                          const request = new XMLHttpRequest();
+                          pos = {'x':value[0],'y':value[1]};
+                          request.open('POST',`/send/${JSON.stringify(pos)}`);
+                          request.send();
+                          console.log('x:' + value[0]);
+                          console.log('y:' + value[1]);
+                      }
+                  }
+          );
+
+
+  </script>

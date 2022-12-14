@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>control pad</title>
+</head>
+
+<style>
+
+#xypad{
+  background: linear-gradient(to top left, white, rgba(255, 153, 150, 0), red), linear-gradient(to top right, yellow, rgba(255, 153, 150, 0), magenta) rgba(255, 153, 150, 1);
+}
+
+</style>
+
+
+<body>
+
+  <div style="float:left;width:200px;padding:30px">
+        <div id="xypad">
+            <fieldset class="pad" data-width="180" data-height="180">
+                <legend>XY Pad</legend>
+                x : <input name="x" value=27>
+                y : <input name="y" value=80>
+            </fieldset>
+
+        </div>
+  </div>
+
+
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script src="{{ url_for('static', filename='js/jquery.kontrol.js') }}"></script>
+<script>
+  var $pad = $(".pad").xy({
+
+                      displayPrevious:false
+                      , min : -100
+                      , max : 100
+                      , fgColor:"#222222"
+                      , bgColor:"#EEEEEE"
+                      , change : function (value){
+                          const request = new XMLHttpRequest();
+                          pos = {'x':value[0],'y':value[1]};
+                          request.open('POST',`/send/${JSON.stringify(pos)}`);
+                          request.send();
+                          console.log('x:' + value[0]);
+                          console.log('y:' + value[1]);
+                      }
+                  }
+          );
+
+
+  </script>
